@@ -1,0 +1,23 @@
+﻿<root>
+
+    <background>1.jpg</background>
+
+ 
+<textviews>
+	  <textview
+            background=""
+            location="280,0,600,96"
+            text="关于我们"
+            textcolor="0xffffffff"
+            textsize="22" >
+        </textview>
+    </textviews>
+<views>
+
+        
+  	<view
+            background="0xff1bb6f9"
+            location="0,0,1000,96" />
+</views>
+<language>en</language>
+</root>

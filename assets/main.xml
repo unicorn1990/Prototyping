@@ -1,0 +1,72 @@
+﻿<root>
+
+    <background>
+0xffe5eb62    </background>
+
+    <buttons>
+
+        <button
+            background="button1.9.png"
+            background_press="0xff990000"
+            finish="false"
+            location="300,100,500,90">1.xml</button>
+        <button
+            background="button2.9.png"
+            background_press="press2.9.png"
+            finish="false"
+            location="30,30,90,200" >2.xml</button>
+    </buttons>
+
+    <viewpagers>
+
+        <viewpager location="30,250,618,550" 
+					page="home_bannner_01.png,home_bannner_02.png,home_bannner_03.png">
+        </viewpager>
+    </viewpagers>
+
+    <textviews>
+
+        <textview
+            background="z_color.png"
+            location="50,600,500,690"
+	    finish="true"
+            text="这是一个textview"
+            textcolor="0xff880000"
+            textsize="15" >
+	1.xml
+        </textview>
+
+	  <textview
+            background=""
+            location="280,26,473,63"
+            text="Demo1.0"
+            textcolor="0xffffffff"
+            textsize="15" >
+        </textview>
+    </textviews>
+
+    <edittexts>
+
+        <edittext
+            background=""
+            hint="这是输入提示"
+            location="50,700,500,790"
+            textcolor="0xff333333"
+            textsize="23" />
+    </edittexts>
+
+    <views>
+
+        <view
+            background="new.png"
+            location="300,950,400,1000" />
+
+        <view
+            background="logo.png"
+            location="200,950,280,1030" />
+  	<view
+            background="0xff1bb6f9"
+            location="0,0,1000,96" />
+    </views>
+<language>en</language>
+</root>
